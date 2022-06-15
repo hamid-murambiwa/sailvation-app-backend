@@ -7,7 +7,7 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 user1 = User.create!(name: 'Karel', email: 'karel@gamil.com')
-cruise1 = Cruise.create!(name: 'Apex', description: "Celebrity Cruise", image: 'https://user-images.githubusercontent.com/71644515/173708182-844d459d-cc67-4b31-920f-1e9751c2f232.png', user_id: user1.id)
+cruise1 = Cruise.create!(name: 'Apex', description: "Celebrity Cruise", image: 'https://user-images.githubusercontent.com/71644515/173711025-afe4e287-b5dc-49f8-866f-a1dd0a841d31.png', user_id: user1.id)
 cruise2 = Cruise.create!(name: 'Virtuosa', description: "Mediterranean cruise company ship", image: 'https://user-images.githubusercontent.com/71644515/173709329-9c8c214d-f323-4466-a2b0-8795d9bf5c88.png', user_id: user1.id)
 cruise3 = Cruise.create!(name: 'Muse', description: "Silversea’s Silver Muse", image: 'https://user-images.githubusercontent.com/71644515/173707998-d7b48d09-a994-4a9d-a19e-9fc7f5cd9f28.png', user_id: user1.id)
 cruise4 = Cruise.create!(name: 'Seabourn', description: "Cruise line headquartered", image: 'https://user-images.githubusercontent.com/71644515/173709091-1a790348-79c5-4a06-afd6-c0f09344dda4.png', user_id: user1.id)
