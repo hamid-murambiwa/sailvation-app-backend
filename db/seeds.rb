@@ -8,7 +8,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 user1 = User.create!(name: 'Karel', email: 'karel@gamil.com')
 cruise1 = Cruise.create!(name: 'Apex', description: "Celebrity Cruise", image: 'https://user-images.githubusercontent.com/71644515/173715241-4ec4f20a-ce2d-49f2-8174-370f4c4f917c.png', user_id: user1.id)
-cruise2 = Cruise.create!(name: 'Virtuosa', description: "Mediterranean cruise company ship", image: 'https://user-images.githubusercontent.com/71644515/173714272-fd7a8b7f-eb0c-4dc8-9848-0cfd3a6cd8ee.png', user_id: user1.id)
+cruise2 = Cruise.create!(name: 'Virtuosa', description: "Cruise company ship", image: 'https://user-images.githubusercontent.com/71644515/173714272-fd7a8b7f-eb0c-4dc8-9848-0cfd3a6cd8ee.png', user_id: user1.id)
 cruise3 = Cruise.create!(name: 'Muse', description: "Silversea’s Silver Muse", image: 'https://user-images.githubusercontent.com/71644515/173713772-ab47e224-c088-49db-9bdf-4e25d3f9c334.png', user_id: user1.id)
 cruise4 = Cruise.create!(name: 'Seabourn', description: "Cruise line headquartered", image: 'https://user-images.githubusercontent.com/71644515/173714441-d3d00fba-1f49-48aa-b72b-aa1d0426fa56.png', user_id: user1.id)
 cruise5 = Cruise.create!(name: 'Disney', description: "Disney Fantasy", image: 'https://user-images.githubusercontent.com/71644515/173716598-e0633c4b-77a1-46d8-8e6c-cdb0e89bf9e3.png', user_id: user1.id)
